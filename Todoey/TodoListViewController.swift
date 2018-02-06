@@ -42,7 +42,12 @@ class TodoListViewController: UITableViewController  {
         tableView.deselectRow(at: indexPath, animated: true )
     }
     
-   
+    //MARK - Add New Items
+    
+    @IBAction func addButtonPressed(_ sender: UIBarButtonItem) {
+        
+        //let alert = UIAlertController
+    }
     
 }
 
